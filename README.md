@@ -13,9 +13,11 @@ Nếu phiên bản cao hơn của bảng chùa đã được cài đặt, vui l�
 Nếu bạn đã cài đặt các loại bảng điều khiển khác hoặc môi trường hoạt động như LNMP, gói một cú nhấp chuột, bạn nên sao lưu dữ liệu, cài đặt lại hệ thống sạch và sau đó cài đặt
 
 Cài đặt
-wget --no-check-certificate -qO crack_bt_panel_pro.sh hhttps://git.io/JU4ib && bash crack_bt_panel_pro.sh
+
+wget --no-check-certificate -qO crack_bt_panel_pro.sh https://git.io/JU4ib && bash crack_bt_panel_pro.sh
 
 Gỡ cài đặt
+
 wget --no-check-certificate -qO uninstall.sh https://git.io/JU4Pv && bash uninstall.sh
 
 
