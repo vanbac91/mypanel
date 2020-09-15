@@ -1,29 +1,31 @@
  
-宝塔面板5.9.X Pro破解版一键脚本已完成，欢迎使用。
+Phiên bản Pagoda Panel 5.9.X Pro bằng một cú nhấp chuột đã được hoàn thành, mời các bạn sử dụng.
 
-网上主流的破解方法是导入其他已授权用户的配置信息，部分下载源并非来自宝塔官方渠道，安全性无法保障，本方法全部基于修改本地配置文件实现，安全绿色无后门。
+Phương pháp phổ biến là nhập thông tin cấu hình của những người dùng được ủy quyền khác. Một phần nguồn tải xuống không phải từ kênh chính thức của chùa và không thể đảm bảo tính bảo mật. Phương pháp này dựa trên việc sửa đổi tệp cấu hình cục bộ để đạt được, an toàn và xanh
 
-本破解方法的原理是通过劫持宝塔面板的 common.py 里，第 164 行记录 release 的信息，将其延期到 2999 年，实现了永久破解的目的。
+Nguyên lý của phương pháp này là chiếm đoạt tấm ván chùa common.py , Ghi dòng 164 release Thông tin，Hoãn nó đến năm 2999，Mục đích của vết nứt vĩnh viễn đạt được.
 
-使用须知
-本脚本必须在完全干净的 CentOS/Debian/Ubuntu 系统上安装
+thông báo sử dụng
+Tập lệnh này phải hoàn toàn sạch Cài đặt trên hệ thống CentOS/Debian/Ubuntu 
 
-如已安装更高版本的宝塔面板，请先卸载高版本再安装
+Nếu phiên bản cao hơn của bảng chùa đã được cài đặt, vui lòng gỡ cài đặt phiên bản cao hơn trước khi cài đặt
 
-如已安装其他种类的面板，或 LNMP 之类的运行环境、一键包，建议备份好数据，重装干净系统再安装
+Nếu bạn đã cài đặt các loại bảng điều khiển khác hoặc môi trường hoạt động như LNMP, gói một cú nhấp chuột, bạn nên sao lưu dữ liệu, cài đặt lại hệ thống sạch và sau đó cài đặt
 
-使用方法
-wget --no-check-certificate -qO crack_bt_panel_pro.sh https://git.io/JvkjT && bash crack_bt_panel_pro.sh
+Cài đặt
+wget --no-check-certificate -qO crack_bt_panel_pro.sh hhttps://git.io/JU4ib && bash crack_bt_panel_pro.sh
 
-卸载
-wget --no-check-certificate -qO uninstall.sh https://git.io/JvkjI && bash uninstall.sh
+Gỡ cài đặt
+wget --no-check-certificate -qO uninstall.sh https://git.io/JU4Pv && bash uninstall.sh
 
 
-更新日志
-Nginx 安装器 openssl 主线版本已升级至 1.1.1d 和 1.0.2t；
-提供卸载功能；
-重新恢复官方安装源，将本仓库作为备份源；
-为防止宝塔面板官方封杀此破解方法，面板主安装文件已迁移至本项目仓库，如对安装文件是否有后门等产生疑问，请自行与官方安装文件对比；
-默认预置 Nginx 安装器，Nginx 主线版本已升级至 1.15.12，openssl 主线版本已升级至 1.1.1c 和 1.0.2s；
-默认开启 ssl 登陆，因 ssl 证书是面板自签的，所以不会被浏览器信任，忽略即可；
-由于破解的过程会输出一些命令，导致会把包含初始化登陆信息的输出结果顶到上面去，请在终端里调整滚动条，找到 Bt-Panel：https://你的域名:8888 一项，下面的 username 和 password 即分别是面板安装完成后，默认的用户名和密码。
+Cập nhật nhật ký
+Phiên bản dòng chính openssl của trình cài đặt Nginx đã được nâng cấp lên 1.1.1d và 1.0.2t；
+Cung cấp chức năng gỡ cài đặt;
+Khôi phục lại nguồn cài đặt chính thức và sử dụng kho này làm nguồn dự phòng;
+Để ngăn chùa panel chính thức ngăn chặn phương pháp này, file cài đặt main panel đã được chuyển vào kho dự án, nếu có thắc mắc về file cài đặt có cửa sau vui lòng đối chiếu với file cài đặt chính thức;
+Trình cài đặt Nginx được đặt trước theo mặc định, phiên bản dòng chính Nginx đã được nâng cấp lên 1.15.12 và phiên bản dòng chính openssl đã được nâng cấp lên 1.1.1c và 1.0.2s;
+
+Đăng nhập ssl được bật theo mặc định, vì chứng chỉ ssl do bảng điều khiển tự ký, vì vậy nó sẽ không được trình duyệt tin cậy, chỉ cần bỏ qua nó;
+
+Vì quá trình sẽ xuất ra một số lệnh nên kết quả đầu ra chứa thông tin đăng nhập ban đầu sẽ được đặt ở đầu, vui lòng điều chỉnh thanh cuộn trong thiết bị đầu cuối，vặn to lên Bt-Panel：https://mydomain:8888 Một mục, tên người dùng và mật khẩu bên dưới tương ứng là tên người dùng và mật khẩu mặc định sau khi cài đặt bảng điều khiển hoàn tất.
