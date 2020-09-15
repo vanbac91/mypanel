@@ -12,7 +12,7 @@ plain='\033[0m'
 [ $(id -u) != "0" ] && { echo -e "${red}[Loi]${plain} Ban phai cai dat voi tu cach root user"; exit 1; }
 
 echo ""
-echo "Cai dat phien ban Cr@ack pro"
+echo "Cai dat phien ban Cr@ck pro"
 echo ""
 echo -e "${red}[CanhBao]"
 echo -e "${plain}Chuong trinh nay ca nhan hoa, chua 5.9"
